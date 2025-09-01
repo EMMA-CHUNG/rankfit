@@ -58,7 +58,7 @@ If you use RankFit in your research, please cite:
   title={RankFit: A Framework for Evaluating Segment-Level Ranking Quality},
   author={Emma Chung},
   year={2025},
-  url={https://github.com/emmachung/rankfit},  # ← Add your GitHub URL
+  url={https://github.com/EMMA-CHUNG/rankfit},  # ← Add your GitHub URL
   version={0.1.0}
 }
 ```
