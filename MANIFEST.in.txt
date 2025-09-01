@@ -1,7 +1,6 @@
 include README.md
 include LICENSE
 include requirements.txt
-include CHANGELOG.md
 recursive-include rankfit *.py
 recursive-exclude tests *
 recursive-exclude examples *
