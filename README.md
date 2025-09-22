@@ -26,6 +26,7 @@ print(f"RankFit-V: {results['rankfit_v']:.3f}")  # Violation score
 print(f"RankFit-T: {results['rankfit_t']:.3f}")  # Trend score
 
 # Visualize
+auc = roc_auc_score(y_true, y_scores)
 fig = analyzer.plot_analysis(results, auc, "Model Analysis")
 fig.savefig("ranking_analysis.png")
 ```
@@ -59,7 +60,7 @@ If you use RankFit in your research, please cite:
   author={Emma Chung},
   year={2025},
   url={https://github.com/EMMA-CHUNG/rankfit},  # ← Add your GitHub URL
-  version={0.1.0}
+  version={0.1.1}
 }
 ```
 
