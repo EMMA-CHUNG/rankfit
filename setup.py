@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="rankfit",
-    version="0.1.0",
+    version="0.1.1",
     author="Emma Chung",
     author_email="hsiaoyin.chung@gmail.com",
     description="Segment-level ranking quality metrics for machine learning models",
