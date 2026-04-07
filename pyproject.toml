@@ -4,7 +4,7 @@ build-backend = "setuptools.backends.legacy:build"
 
 [project]
 name = "rankfit"
-version = "0.2.0"
+version = "0.1.0"
 description = "Segment-level ranking quality metrics for machine learning models — beyond AUC."
 readme = "README.md"
 license = { file = "LICENSE" }

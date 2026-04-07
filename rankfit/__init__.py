@@ -28,7 +28,7 @@ from .analyzer import RankFitAnalyzer
 from .metrics import calculate_rankfit_v, calculate_rankfit_t
 from .visualization import plot_ranking_analysis, plot_granularity_comparison
 
-__version__ = "0.2.0"
+__version__ = "0.1.0"
 __author__ = "Emma Chung"
 __email__ = "hsiaoyin.chung@gmail.com"
 __license__ = "MIT"
